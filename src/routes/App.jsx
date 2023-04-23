@@ -24,15 +24,15 @@ function App() {
     <BrowserRouter>
       <Layout>
     <Routes>
-        <Route path='/'  element={<Home/>} />
-        <Route  path='/login' element={<Login/>} />
-        <Route  path='/recovery-password' element={<RecoveryPassword/>}/>
-        <Route path='/send-email' element={<SendEmail/>}/>
-        <Route path='/new-password' element={<NewPassword/>}/>
-        <Route path='/account' element={<MyAccuount/>}/>
-        <Route path='/signup' element={<CreateAcount/>}/>
-        <Route path='/checkout' element={<Checkout/>}/>
-        <Route path='/orders' element={<Orders/>}/>
+        <Route path='/shop-react/'  element={<Home/>} />
+        <Route  path='/shop-react/login' element={<Login/>} />
+        <Route  path='/shop-react/recovery-password' element={<RecoveryPassword/>}/>
+        <Route path='/shop-react/send-email' element={<SendEmail/>}/>
+        <Route path='/shop-react/new-password' element={<NewPassword/>}/>
+        <Route path='/shop-react/account' element={<MyAccuount/>}/>
+        <Route path='/shop-react/signup' element={<CreateAcount/>}/>
+        <Route path='/shop-react/checkout' element={<Checkout/>}/>
+        <Route path='/shop-react/orders' element={<Orders/>}/>
         <Route path='*' element={<NotFound/>} />
     </Routes>
       </Layout>
